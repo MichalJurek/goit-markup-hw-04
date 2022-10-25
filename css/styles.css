@@ -140,6 +140,22 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
+.envelope-icon {
+    stroke: var(--MainGreyColor);
+    margin: 0 10px 0 0;
+}
+.envelope-icon:hover,
+.header-links-contact:focus {
+    stroke: var(--StudioBlueColor);
+}
+.icon-smartphone {
+    stroke: var(--MainGreyColor);
+    margin: 0 10px 0 0;
+}
+.icon-smartphone:hover,
+.icon-smartphone:focus {
+    stroke: var(--StudioBlueColor);
+}
 
 .header-links-contact:hover,
 .header-links-contact:focus {
@@ -201,7 +217,7 @@ h1 {
 .index-main-section {
     display: flex;
     flex-direction: column;
-    height: 769px;
+    height: 919px;
     max-height: 100%;
     justify-content: center;
     gap: 94px;
@@ -215,15 +231,46 @@ h1 {
     padding-left: 0px;
     gap: 30px;
 }
+.gap-30-px {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.our-advantages-icons-settings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    border: 0;
+    border-radius: 4px;
+    background-color: var(--BacgroundLightGafitColor);
+}
 
+.icon-antenna:hover,
+.icon-antenna:focus {
+    stroke: var(--StudioBlueColor);
+}
+.icon-clock:hover,
+.icon-clock:focus {
+    stroke: var(--StudioBlueColor);
+}
+.icon-diagram:hover,
+.icon-diagram:focus {
+    stroke: var(--StudioBlueColor);
+}
+.icon-astronaut:hover,
+.icon-astronaut:focus {
+    stroke: var(--StudioBlueColor);
+}
 .main-section-headings {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
-    margin: 0 auto;
+    margin: 0;
     border: 0 auto;
-
 }
 
 .main-section-description {
