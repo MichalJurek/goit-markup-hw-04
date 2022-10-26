@@ -285,6 +285,7 @@ h1 {
 .portfolio-button-list,
 .portfolio-main-section,
 .what-we-do-presentation,
+.our-customer-list,
 .main-section-our-team-list {
     list-style: none;
 }
@@ -328,6 +329,7 @@ h1 {
 }
 
 .main-section-our-team-heading,
+.our-customer-section-heading,
 .what-we-do {
     font-weight: 700;
     font-size: 36px;
@@ -411,11 +413,23 @@ h1 {
     width: 44px;
     height: 44px;
 }
-    
+.our-customer-section {
+    display: flex;
+    flex-direction: column;
+    height: 372px;
+    max-height: 100%;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
 .no-margin {
     margin: 0px auto;
 }
-
+.our-customer-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .footer {
     background-color: var(--BacgroundGafitColor);
     font-style: normal;
