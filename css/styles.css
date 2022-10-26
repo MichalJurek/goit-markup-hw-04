@@ -458,13 +458,17 @@ h1 {
     font-style: normal;
     display: flex;
     align-items: center;
-    padding-top: 60px;
-    padding-bottom: 60px;
     justify-content: center;
+    height: 252px;
 }
 
+.gap-70-px {
+    display: flex;
+    gap: 70px;
+}
 .gap-20-px {
     display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -475,8 +479,6 @@ h1 {
     margin: 0;
     border: 0;
     padding-left: 0;
-    justify-content: space-between;
-
 }
 
 .header-logo-right-down {
@@ -558,9 +560,42 @@ h1 {
     height: 1548px;
     justify-content: center;
 }
-.footer-social {
-    display: flex;
+.footer-join-us-heading {
+    font-family: var(--FontDefaultRoboto);
+    font-style: bold;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 3%;
     color: var(--MainWhiteColor);
+    margin: 0;
+}
+.footer-social-media-icon-settings {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer-social-links {
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    --color3:var(--MainWhiteColor);
+}
+.footer-social-links:hover,
+.footer-social-links:focus {
+    border-radius: 50%;
+    background-color: var(--StudioBlueColor);
+    --color3:var(--MainWhiteColor);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 44px;
+    height: 44px;
 }
 .portfolio-button-list {
     display: flex;
