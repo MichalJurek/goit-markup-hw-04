@@ -3,6 +3,7 @@
     --MainBlackColor: rgba(33, 33, 33, 1);
     --MainWhiteColor: rgba(255, 255, 255, 1);
     --MainGreyColor: rgba(117, 117, 117, 1);
+    --SecondGreyColorLighter: rgba(175, 177, 184, 1);
     --BacgroundGafitColor: rgba(47, 48, 58, 1);
     --BacgroundLightGafitColor: rgba(245, 244, 250, 1);
     --FontLogoRaleway: font-family: "Raleway", sans-serif;
@@ -429,6 +430,28 @@ h1 {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    padding: 0;
+    gap: 30px;
+}
+.our-customer-list-icon-settings {
+    width: 170px;
+    height: 92px;
+    border: solid 1px var(--SecondGreyColorLighter);
+    border-radius: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-foster-peters {
+    --color2: var(--SecondGreyColorLighter);
+}
+.icon-foster-peters:hover {
+    --color2: var(--StudioBlueColor);
+}
+.our-customer-list-icon-settings:hover,
+.our-customer-list-icon-settings:focus {
+    --color3: var(--StudioBlueColor);
+    border-color: var(--StudioBlueColor);
 }
 .footer {
     background-color: var(--BacgroundGafitColor);
@@ -536,7 +559,10 @@ h1 {
     height: 1548px;
     justify-content: center;
 }
-
+.footer-social {
+    display: flex;
+    color: var(--MainWhiteColor);
+}
 .portfolio-button-list {
     display: flex;
     justify-content: center;
