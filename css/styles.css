@@ -164,7 +164,10 @@ body {
 }
 
 .main-button-place {
-    background-color: var(--BacgroundGafitColor);
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),rgba(255, 255, 255, 0)),
+    url("../images/backgroundteamimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,6 +175,7 @@ body {
     height: 600px;
     max-height: 100%;
     margin: 0;
+
 }
 
 h1 {
