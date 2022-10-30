@@ -141,29 +141,18 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
 }
-
-.envelope-icon {
-    stroke: var(--MainGreyColor);
-    margin: 0 10px 0 0;
-}
-
-.envelope-icon:hover,
-.header-links-contact:focus {
-    stroke: var(--StudioBlueColor);
-}
-
-.icon-smartphone {
-    stroke: var(--MainGreyColor);
-    margin: 0 10px 0 0;
+.gap-10-px {
+    display: flex;
+    gap: 10px;
 }
 
 .icon-smartphone:hover,
-.icon-smartphone:focus {
-    stroke: var(--StudioBlueColor);
-}
-
+.icon-smartphone:focus,
+.envelope-icon:hover,
+.envelope-icon:focus,
 .header-links-contact:hover,
 .header-links-contact:focus {
+    stroke: var(--StudioBlueColor);
     color: var(--StudioBlueColor);
 }
 
