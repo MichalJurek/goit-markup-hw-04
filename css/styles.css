@@ -444,7 +444,8 @@ h1 {
     gap: 30px;
 }
 
-.our-customer-list-icon-settings {
+.our-customer-list-icon-settings,
+.our-customer-list-icon-settings-foster-peters {
     width: 170px;
     height: 92px;
     border: solid 1px var(--SecondGreyColorLighter);
@@ -454,12 +455,14 @@ h1 {
     align-items: center;
 }
 
-.icon-foster-peters {
+.our-customer-list-icon-settings-foster-peters {
     --color2: var(--SecondGreyColorLighter);
 }
 
-.icon-foster-peters:hover {
+.our-customer-list-icon-settings-foster-peters:hover {
     --color2: var(--StudioBlueColor);
+    border-color: var(--StudioBlueColor);
+
 }
 
 .our-customer-list-icon-settings:hover,
