@@ -75,6 +75,7 @@ body {
 .header-logo-right:hover,
 .header-logo-right:focus {
     color: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .header-links-container {
@@ -101,6 +102,7 @@ body {
 .header-links:hover,
 .header-links:focus {
     color: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .header-links-contact-container {
@@ -125,6 +127,7 @@ body {
 .header-portfolio:hover,
 .header-portfolio:focus {
     color: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .header-links-contact-container {
@@ -154,6 +157,7 @@ body {
 .header-links-contact:focus {
     stroke: var(--StudioBlueColor);
     color: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .main-button-place {
@@ -182,12 +186,12 @@ h1 {
 }
 
 .main-button {
-    color: var(--MainBlackColor);
+    color: var(--MainWhiteColor);
     font-size: 16px;
     font-weight: 700;
     line-height: 1.88;
     letter-spacing: 0.06em;
-    background-color: var(--BacgroundLightGafitColor);
+    background-color: var(--StudioBlueColor);
     text-decoration: none;
     width: 200px;
     height: 50px;
@@ -201,8 +205,7 @@ h1 {
 
 .main-button:hover,
 .main-button:focus {
-    color: var(--MainWhiteColor);
-    background-color: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .align-items-center {
@@ -248,23 +251,15 @@ h1 {
 }
 
 .icon-antenna:hover,
-.icon-antenna:focus {
-    stroke: var(--StudioBlueColor);
-}
-
+.icon-antenna:focus,
 .icon-clock:hover,
-.icon-clock:focus {
-    stroke: var(--StudioBlueColor);
-}
-
+.icon-clock:focus,
 .icon-diagram:hover,
-.icon-diagram:focus {
-    stroke: var(--StudioBlueColor);
-}
-
+.icon-diagram:focus,
 .icon-astronaut:hover,
 .icon-astronaut:focus {
     stroke: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .main-section-headings {
@@ -420,6 +415,7 @@ h1 {
     gap: 10px;
     width: 44px;
     height: 44px;
+    cursor: pointer;
 }
 
 .our-customer-section {
@@ -462,6 +458,7 @@ h1 {
 .our-customer-list-icon-settings-foster-peters:hover {
     --color2: var(--StudioBlueColor);
     border-color: var(--StudioBlueColor);
+    cursor: pointer;
 
 }
 
@@ -469,6 +466,7 @@ h1 {
 .our-customer-list-icon-settings:focus {
     --color3: var(--StudioBlueColor);
     border-color: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .footer {
@@ -514,6 +512,7 @@ h1 {
 .header-logo-right-down:hover,
 .header-logo-right-down:focus {
     color: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .footer-adress {
@@ -541,6 +540,7 @@ h1 {
 .footer-email:hover,
 .footer-email:focus {
     color: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .footer-email-portfolio-underline {
@@ -557,6 +557,7 @@ h1 {
 .footer-email-portfolio-underline:hover,
 .footer-email-portfolio-underline:focus {
     color: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .footer-tel {
@@ -573,6 +574,7 @@ h1 {
 .footer-tel:hover,
 .footer-tel:focus {
     color: var(--StudioBlueColor);
+    cursor: pointer;
 }
 
 .height-portfolio {
@@ -619,6 +621,7 @@ h1 {
     gap: 10px;
     width: 44px;
     height: 44px;
+    cursor: pointer;
 }
 
 .portfolio-button-list {
@@ -652,6 +655,7 @@ h1 {
     color: var(--MainWhiteColor);
     background-color: var(--StudioBlueColor);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    cursor: pointer;
 }
 
 .portfolio-main-section {
